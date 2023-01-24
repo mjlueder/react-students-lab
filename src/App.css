@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+body {
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div {
+  margin: 5px;
+  padding: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.student {
+  margin: 48px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.scores {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#student-0 {
+  background-image: url("https://www.bls.gov/spotlight/2017/sports-and-exercise/images/cover_image.jpg");
+  background-size: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#student-1 {
+  background-image: url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1dx8G642rlGiebjWWDCymz/a2736f89518a4ec9753c43b45c5da6dc/ubicom-moregames-header-sparks_of_hope.jpg");
+  background-size: cover;
+}
+
+#student-2 {
+  background-image: url("https://www.boardgamehalv.com/wp-content/uploads/2020/10/Clue_BoardGame_RoomPlayerPiece.jpg");
+  background-size: cover;
+}
+
+h2, p, h3 {
+  background-color: rgb(240, 248, 255, 0.75);
+  
 }
